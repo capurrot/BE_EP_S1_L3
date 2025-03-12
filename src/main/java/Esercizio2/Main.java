@@ -9,6 +9,11 @@ public class Main {
         sim.setCredito(0);
         StampaSim.stampaSim(sim);
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Aggiungi credito:");
+        sim.setCredito(scanner.nextDouble());
+        StampaSim.stampaSim(sim);
+
         System.out.println();
         System.out.println("#################################################à");
         System.out.println();
