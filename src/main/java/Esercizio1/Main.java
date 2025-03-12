@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Rettangolo.stampaRettangolo();
+        StampeRettangoli.stampaRettangolo();
         System.out.println("----------------------------------");
-        Rettangolo.stampaDueRettangoli();
+        StampeRettangoli.stampaDueRettangoli();
     }
 }
